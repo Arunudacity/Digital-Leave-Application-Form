@@ -1,0 +1,111 @@
+body
+{
+	font-family: roboto;
+	background: url("img6.jpg");
+    height:100vh;
+	background-size:cover;
+    background-repeat: no-repeat;
+	overflow: hidden;
+   
+}
+
+.log-inbox{
+	width: 320px;
+	height: 500px;
+	background: rgba(0,0,0,0.5) ; 
+    color: #fff;
+    top: 53%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10%;
+	padding-left: 40px;
+    padding-right: 50px;
+}
+
+.avatar
+{
+	width: 100px;
+	heigth: 100px;
+	border-radius: 70px;
+	position: absolute;
+	top: -10%;
+	left: 105px;
+}
+
+.log-inbox h1{
+	margin: 0;
+	padding: 90px 0px 30px;
+	text-align: center;
+	font-size: 26px;
+}
+
+.log-inbox p
+{
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+	font-size: 19px;
+    
+
+}
+.log-inbox input{
+ width: 100%;
+ padding: 0px;
+ margin-bottom: 20px;
+}
+
+.log-inbox input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	outline:none;
+	height: 40px;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+}
+
+.login-button
+{
+	border: none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size: 18px;
+	border-radius: 20px;
+	width: 200px;
+	cursor: pointer;
+	text-align: center;
+    
+}
+
+
+
+.log-inbox a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 20px;
+	padding-top: 10px;
+	color:white;     
+	
+}
+.Login input:hover{
+	background: darkred;
+}
+
+
+.log-inbox a:hover{
+	color: #ffc187;
+}
+
+.log-inbox h5{
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: 23px;
+
+
+}
